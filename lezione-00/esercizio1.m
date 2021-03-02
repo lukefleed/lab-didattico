@@ -17,7 +17,6 @@ b = Ahilb*u;
 
 %Risolvo il sistema di Matlab 
 function w = parte2(Ahilb,b)
-w = Ahilb/b;
 w = mldivide(Ahilb,b)
 endfunction
 
