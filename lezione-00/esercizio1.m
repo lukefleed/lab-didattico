@@ -16,6 +16,10 @@ u = ones(10,1);
 b = Ahilb*u;
 
 %Risolvo il sistema di Matlab 
+<<<<<<< HEAD
+=======
+function w = parte2(Ahilb,b)
+>>>>>>> a66cee30268b5413584b096925e265b8c8e87ddf
 w = mldivide(Ahilb,b)
 
 % Faccio la norma 2
