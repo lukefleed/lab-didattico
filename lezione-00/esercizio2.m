@@ -4,7 +4,7 @@
 
 t=linspace(0,50,1000);
 plot(t.*sin(t), 'r')
-
+hold on;
  % PUNTO 2 (Grazie Mario)
 
 t=linspace(-2,2,200);

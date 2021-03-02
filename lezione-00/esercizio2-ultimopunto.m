@@ -1,4 +1,4 @@
-M=zeros(200);
+M=zeros(200)*(-1);
 Z=linspace(-4,4,200);
 for i=1:200
     for j=1:200
