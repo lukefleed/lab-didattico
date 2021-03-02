@@ -1,8 +1,13 @@
+% ANDREBBERO MESSI SU DUE FILE DIVERSI, MA MI SCOCCIO 
+
  % PUNTO 1
 
-x = 0:0.01:0.5;
-plot(x, x.*sin(x), 'r')
+t=linspace(0,50,1000);
+plot(t.*sin(t), 'r')
 
-% va continuata, mancano due punti 
+ % PUNTO 2 (Grazie Mario)
 
-
+t=linspace(-2,2,200);
+xt=t.*(3-t.^2);
+yt=3*t.^2;
+plot(xt,yt,'g','LineWidth',2)
