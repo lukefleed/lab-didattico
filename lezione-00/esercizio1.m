@@ -7,7 +7,7 @@ for i = 1:n
         Ahilb(i,j) = 1/(i+j -1);
     end
 end
-endfunction
+
 %adesso ho una matrice Ahilb di hilbert di ordine 10
 
 %  Costruisco il vettore colonna u
@@ -16,13 +16,11 @@ u = ones(10,1);
 b = Ahilb*u;
 
 %Risolvo il sistema di Matlab 
-function w = parte2(Ahilb,b)
-w = A/b;
 w = mldivide(Ahilb,b)
-endfunction
 
 % Faccio la norma 2
  norma = norm(w-u,2)
 % Condizionamento di A
  condizionamento = cond(Ahilb)
 
+endfunction
