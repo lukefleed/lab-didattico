@@ -11,3 +11,4 @@ t=linspace(-2,2,200);
 xt=t.*(3-t.^2);
 yt=3*t.^2;
 plot(xt,yt,'g','LineWidth',2)
+
