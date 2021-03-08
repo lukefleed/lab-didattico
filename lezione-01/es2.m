@@ -14,6 +14,6 @@ b = 5;
 w = (a*v +b)./(v+1);
 plot(w)
 
-% DOMANDA: Qual `e la figura che ne risulta? Che cosa congetturate riguardo alle propriet`a della trasformazione di M¨obius che avete usato? Rispondete commentando lo script.
-% RISPOSTA: Congetturo che il raggio dopo la trasformazione è diminuito e la circonferenza  è stata traslata a destra
+% DOMANDA: Qual'è la figura che ne risulta? Che cosa congetturate riguardo alle propriet`a della trasformazione di M¨obius che avete usato? Rispondete commentando lo script.
+% RISPOSTA: Congetturo che il raggio dopo la trasformazione è diminuito e la circonferenza è stata traslata a destra
 
