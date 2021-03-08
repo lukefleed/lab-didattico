@@ -3,7 +3,7 @@ t=0:pi/100:2*pi;
 v=exp(i*t);
 axis([-10 10 -10 10],'equal');
 
-# Prendo il logaritmo complesso di v
+% Prendo il logaritmo complesso di v
 w=log(v);
 plot(w)
 hold on
