@@ -8,3 +8,5 @@ xunit = r*cos(th) + x;
 yunit = r*sin(th) + y;
 %si plotta
 circ = plot(xunit, yunit);
+
+%Il triangolo per ora mi scoccio
