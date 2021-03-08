@@ -9,4 +9,8 @@ yunit = r*sin(th) + y;
 %si plotta
 circ = plot(xunit, yunit);
 
-%Il triangolo per ora mi scoccio
+%PARTE DEL TRIANGOLO
+function triangolo(z,a)
+	v=[z z-a z-a/2+i*a*(sqrt(3)/2) z];
+	plot(v);
+end
