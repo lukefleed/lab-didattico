@@ -3,7 +3,7 @@
 
 th = 0:pi/100:2*pi;
 v = exp(i*th) + 1;
-%plotto tutti i puntini
+%plotto 
 plot(v)
 axis([-10 10 -10 10],'equal');
 hold on
