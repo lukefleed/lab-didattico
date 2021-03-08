@@ -8,6 +8,7 @@ xunit = r*cos(th) + x;
 yunit = r*sin(th) + y;
 %si plotta
 circ = plot(xunit, yunit);
+hold on
 
 %PARTE DEL TRIANGOLO
 function triangolo(z,a)
