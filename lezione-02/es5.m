@@ -4,11 +4,12 @@ function es5(n)
  # questo valore di c è meno accurato da quello dato nel pdf degli esercizi quindi utilizzo quello, anche per valori maggiore di 5000
 c = 1.13198824;
 for i = 1:n
-    f = rfibonacci(i);
-    y1(i) = abs(f(end));
     y2(i) = c^i;
 end
-semilogy(y1);
-semilogy(y2);
+f = abs(rfibonacci(n));
+loglog(f) 
+hold on
+loglog(y2)
+# l'output di octave ritorna uno strano warning, dicendo che omette valori non positivi. Non capisco come sia possibile, visto che ho dato il valore assoluto a tutto
 
 end
