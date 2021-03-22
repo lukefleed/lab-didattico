@@ -1,3 +1,5 @@
+%Questa funzione è necessaria per il funzionamento dell'esercizio 4
+
 function g = succ(n)
     g(1:2)=1;
     g(3) = 2;
