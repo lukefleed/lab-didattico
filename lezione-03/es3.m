@@ -1,4 +1,4 @@
-function fern(m)
+function es3(m)
 
 A1=[0.85 0.04; -0.04 0.85];
 b1=[0 ;1.6];
@@ -15,32 +15,23 @@ p3 = 0.99;
 p4 = 1;
 
 %x1 = [0.5 ; 0.5];
-r = rand(1);
+
 %Valore iniziale
 S(:,1) = [0.5 ; 0.5];
-
-if (r <= p1)
-    for k=1:m
-    S(:,k+1) = A1*S(:,k) + b1;
-    end
-
+for k=1:m
+    r = rand;
+    if (r <= p1)
+        S(:,k+1) = A1*S(:,k) + b1;
     elseif (p1 <r && r<=p2)
-        for k=1:m
-        S(:,k+1) = A2*S(:,k) + b2;
-        end
-        
+        S(:,k+1) = A2*S(:,k) + b2;       
     elseif (p2<r && r<=p3)
-        for k=1:m
-        S(:,k+1) = A3*S(:,k) + b3;
-        end
-       
+        S(:,k+1) = A3*S(:,k) + b3;       
     else
-        for k=1:m
-        S(:,k+1) = A4*S(:,k) + b4;
-        end
-        
+        S(:,k+1) = A4*S(:,k) + b4;        
+    end
 end
+
  axis off
- plot(S(1,:),S(2,:),'g')
+ plot(S(1,:),S(2,:),'g.')
 
 
