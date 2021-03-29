@@ -1,6 +1,6 @@
-x = linspace(-200,200,400);
-y = linspace(-200,200,400);
-z = linspace(-200,200,400);
+x = linspace(-200,200,400); %usare 100 se si usa octave
+y = linspace(-200,200,400); %usare 100 se si usa octave
+z = linspace(-200,200,400); %usare 100 se si usa octave
 
 [X,Y,Z] = meshgrid(x,y,z);
 
