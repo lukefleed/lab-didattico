@@ -1,5 +1,7 @@
+%PRIMA FUNZIONE
+f=@(x,y) 2*sin((X.^2 + Y.^2).^(1/2));
 x= 0:0.1:20;
-y= x;
+y = x;
 [X,Y] = meshgrid(x,y);
-Z = 2.*sin((X.^2 + Y.^2).^(1/2));
-surf(X,Y,Z) %in alternativa si può mettere anche mesh(Z)
+mesh(x,y,f(X,Y))
+
