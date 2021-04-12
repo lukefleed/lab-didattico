@@ -1,6 +1,6 @@
-x = linspace(-200,200,50); %su octave meglio mettere 50 punti, non oltre
-y = linspace(-200,200,50); %su octave meglio mettere 50 punti, non oltre
-z = linspace(-200,200,50); %su octave meglio mettere 50 punti, non oltre
+x = linspace(-200,200,200); %su octave meglio mettere 50 punti, non oltre
+y = linspace(-200,200,200); %su octave meglio mettere 50 punti, non oltre
+z = linspace(-200,200,200); %su octave meglio mettere 50 punti, non oltre
 [X,Y,Z] = meshgrid(x,y,z); %su octave meglio mettere 50 punti, non oltre
 
 mu=2;
