@@ -7,9 +7,9 @@ for i = 1:n
     y2(i) = c^i;
 end
 f = abs(rfibonacci(n));
-loglog(f) 
+semilogy(f) 
 hold on
-loglog(y2)
+semilogy(y2)
 # l'output di octave ritorna uno strano warning, dicendo che omette valori non positivi. Non capisco come sia possibile, visto che ho dato il valore assoluto a tutto
 
 end
