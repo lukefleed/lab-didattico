@@ -1,7 +1,5 @@
 function tgol(n,X,k)
 
-	spy(X)
-
 	for i=1:k
 
         U=([X(2:n,:);zeros(1,n)]);
@@ -20,6 +18,6 @@ function tgol(n,X,k)
 		X=Y==3;
 
 	    spy(X);
-		drawnow("expose")
+		drawnow expose
 	end
 end
