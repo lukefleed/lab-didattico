@@ -42,9 +42,7 @@ switch(scelta)
         a = 0;
         b = 60;
     otherwise
-        disp("Wrong answer, RAM autodestrucion in 3... 2... 1...");
-        A = rand(696969)
-        eig(A)
+        disp("Wrong answer")       
 end
 
 
