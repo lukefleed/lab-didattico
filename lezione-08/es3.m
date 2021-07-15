@@ -7,7 +7,7 @@ function S = es3(f,a,b,N)
             somma1+=f(a + 2*i*h);
             somma2+=f(a + (2*i-1)*h); 
         end
-        somma2+=f(a+(N-1)*h);
+        somma2+=f(a+(N-1)*h); %aggiunto dopo le correzioni
         S = (h/3)*(f(a)+f(b) + 2*somma1 + 4*somma2);
 end
 
