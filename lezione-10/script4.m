@@ -12,6 +12,6 @@ shading flat
 
 hold on
 
-min=neldermead(f,10^(-2),100,[1,1],[0,0],[2,0])
+min=neldermead(f,10^(-7),100,[-1,0],[1,0],[0,2])
 
 pause(60)
