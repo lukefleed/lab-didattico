@@ -39,7 +39,7 @@ function xmin=neldermead(f,epsilon,itermax,x1,x2,x3)
 				x3=xr;
 			end
 		else
-			xc=(xm+xr/2);
+			xc=(xm+xr)/2;
 			fc=f(xc(1),xc(2));
 			if(fc<f3)
 				x3=xc;
